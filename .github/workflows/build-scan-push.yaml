@@ -7,7 +7,8 @@ on:
 env:
   REGISTRY: ${ env.REGISTRY }
   IMAGE_NAME: ${ env.IMAGE_NAME }
-
+  REGISTRY_TOKEN: ${ secrets.REGISTRY_TOKEN }
+  
 jobs:
   build:
     runs-on: ubuntu-latest
