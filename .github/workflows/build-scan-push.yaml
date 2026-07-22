@@ -1,4 +1,4 @@
-name: Build + Scan + Push
+name: Docker - Step 3
 
 on:
   push:
